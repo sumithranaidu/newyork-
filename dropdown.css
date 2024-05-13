@@ -1,0 +1,48 @@
+/* #img1{ */
+    /* position:sticky; */
+    /* top: 0px; */
+    /* left:0px */
+/*  */
+/* } */
+/* #img2{ */
+    /* position: relative; */
+    /* top: 0px; */
+    /* left: 0px; */
+/* } */
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right bottom,blue,white,green);
+    height: 100vh;
+}
+nav{
+    background-color: blanchedalmond;
+}
+#cont{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+}
+a:hover{
+background-color: brown;
+color: white;
+}
+#menu{
+    list-style: none;
+    margin: 0;
+    padding:0;
+    background-color: hotpink;
+    position: absolute;
+    display:none;
+}
+#drop:hover #menu
+{
+display: block;
+}
